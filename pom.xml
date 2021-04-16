@@ -8,10 +8,6 @@
     <artifactId>catpoint</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>image</module>
-        <module>security</module>
-    </modules>
 
     <name>catpoint</name>
 
@@ -20,6 +16,11 @@
         <maven.compiler.source>15</maven.compiler.source>
         <maven.compiler.target>15</maven.compiler.target>
     </properties>
+
+    <modules>
+        <module>image</module>
+        <module>security</module>
+    </modules>
 
     <dependencies>
         <dependency>
