@@ -1,4 +1,4 @@
-package com.udacity.security.data;
+package com.udacity.catpoint.security.data;
 
 
 import com.google.common.collect.ComparisonChain;
@@ -14,6 +14,8 @@ public class Sensor implements Comparable<Sensor> {
     private String name;
     private Boolean active;
     private SensorType sensorType;
+
+    public Sensor() {}
 
     public Sensor(String name, SensorType sensorType) {
         this.name = name;

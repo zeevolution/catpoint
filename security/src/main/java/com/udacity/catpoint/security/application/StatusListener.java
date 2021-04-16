@@ -1,6 +1,6 @@
-package com.udacity.security.application;
+package com.udacity.catpoint.security.application;
 
-import com.udacity.security.data.AlarmStatus;
+import com.udacity.catpoint.security.data.AlarmStatus;
 
 /**
  * Identifies a component that should be notified whenever the system status changes
